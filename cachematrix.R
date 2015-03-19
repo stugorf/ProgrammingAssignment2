@@ -1,15 +1,39 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+# Overall Description:
+#   
 
 makeCacheMatrix <- function(x = matrix()) {
+# Description:
+#   
+
+# Args:
+#   directory: is a character vector of length 1 indicating
+#   the location of the CSV files
+
+#   threshold: is a numeric vector of length 1 indicating the
+#   number of completely observed observations (on all
+#   variables) required to compute the correlation between
+#   nitrate and sulfate; the default is 0
+
+# Returns:
+#   a numeric vector of correlations
 
 }
 
 
-## Write a short comment describing this function
-
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+# Description:
+#   
+
+# Args:
+#   directory: is a character vector of length 1 indicating
+#   the location of the CSV files
+
+#   threshold: is a numeric vector of length 1 indicating the
+#   number of completely observed observations (on all
+#   variables) required to compute the correlation between
+#   nitrate and sulfate; the default is 0
+
+# Returns:
+#   a matrix that is the inverse of 'x'
+    
 }
